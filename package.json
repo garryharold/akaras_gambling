@@ -1,0 +1,28 @@
+{
+  "name": "akaras-gambling-render",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "test": "node tests/game.test.mjs && node --test tests/server.test.mjs",
+    "backup": "node --env-file-if-exists=.env server/backup.mjs",
+    "reset-password": "node --env-file-if-exists=.env server/reset-password.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "24.10.0"
+  }
+}

@@ -1,0 +1,7 @@
+Akarás Gambling – Render v2
+
+Új: admin kör- és meccslétrehozás, szabad körnevek (1-0, 0-2, Semifinal, Final), saját oddsok.
+
+Meglévő Render telepítés frissítése: ugyanazon szolgáltatást, tartós lemezt és DATABASE_PATH értéket tartsd meg. A fiókok, kreditek és fogadások megmaradnak. Részletek és mentés: README.md, Frissítés fejezet.
+
+Első telepítés: README.md, Feltöltés GitHubra és Render Blueprint fejezetek.
